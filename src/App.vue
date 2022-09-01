@@ -29,13 +29,24 @@ export default {
         linkProject: "https://siteskip.be/",
         foto: "/src/assets/FinanceClub.png",
         title: "the personal finance club",
-      },
+        tags: [
+          {id:1,name:'laravel'},
+          {id:2,name:'livewire'},
+          {id:3,name:'tailwindcss'},
+          {id:4,name:'alpineJS'},
+        ]
+        }
+      ,
       {
         id: 2,
         linkCode: "https://github.com/AtlasMountains",
         linkProject: "https://pizza.siteskip.be/",
         foto: "/src/assets/PizzaZaak.png",
         title: "pizza zaak",
+        tags: [
+          {id:1,name:'PHP'},
+          {id:2,name:'Bootstrap'}
+        ]
       },
       {
         id: 3,
@@ -43,6 +54,10 @@ export default {
         linkProject: "https://atlasmountains.github.io/kleurplaat/",
         foto: "/src/assets/kleurplaat.png",
         title: "kleurplaat",
+        tags: [
+          {id:1,name:'javascript'},
+          {id:2,name:'JSON'},
+        ]
       },
       {
         id: 4,
@@ -50,6 +65,9 @@ export default {
         linkProject: "https://atlasmountains.github.io/oefening-SCSS/",
         foto: "/src/assets/ArtStudio.png",
         title: "oefening css",
+        tags: [
+          {id:1,name:'SASS/SCSS'},
+        ]
       },
       {
         id: 5,
@@ -57,6 +75,10 @@ export default {
         linkProject: "https://atlasmountains.github.io/yahtzee/",
         foto: "/src/assets/YahtzeeSmall.png",
         title: "yahtzee",
+        tags: [
+          {id:1,name:'javascript'},
+          {id:2,name:'OOP'},
+        ]
       },
     ];
   },

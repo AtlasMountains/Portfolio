@@ -17,6 +17,7 @@ export default {
         :foto="app.foto"
         :linkCode="app.linkCode"
         :linkProject="app.linkProject"
+        :tags = "app.tags"
       ></Card>
     </div>
   </div>
