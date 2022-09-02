@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-md shadow-xl">
+  <div class="bg-white rounded-md shadow-xl bg-gradient-to-r from-cyan-400 to-green-400">
     <h3 class="text-xl font-semibold text-center pt-1 pb-2">{{ title }}</h3>
     <div class="w-full col-span-2 overflow-hidden">
       <img
@@ -18,13 +18,13 @@
     <div class="grid grid-cols-2">
       <Knop
         text="View Project"
-        class="bg-emerald-500 rounded-bl"
+        class="bg-emerald-400 rounded-bl"
         :link="linkProject"
       ></Knop>
 
       <Knop
         text="Github Code"
-        class="bg-slate-500 rounded-br"
+        class="text-white bg-slate-600 rounded-br"
         :link="linkCode"
       ></Knop>
     </div>

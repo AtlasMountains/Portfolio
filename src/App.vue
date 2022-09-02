@@ -39,7 +39,7 @@ export default {
       ,
       {
         id: 2,
-        linkCode: "https://github.com/AtlasMountains",
+        linkCode: "https://github.com/AtlasMountains/pizza",
         linkProject: "https://pizza.siteskip.be/",
         foto: "/src/assets/PizzaZaak.png",
         title: "pizza zaak",
@@ -73,11 +73,12 @@ export default {
         id: 5,
         linkCode: "https://github.com/AtlasMountains/yahtzee",
         linkProject: "https://atlasmountains.github.io/yahtzee/",
-        foto: "/src/assets/YahtzeeSmall.png",
+        foto: "/src/assets/Yahtzee.png",
         title: "yahtzee",
         tags: [
           {id:1,name:'javascript'},
           {id:2,name:'OOP'},
+          {id:3,name:'Bootstrap'},
         ]
       },
     ];
