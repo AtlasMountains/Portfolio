@@ -85,7 +85,7 @@ export default {
         id: 6,
         linkCode: "https://github.com/AtlasMountains/portfolio",
         linkProject: "https://atlasmountains.github.io/portfolio",
-        foto: "./portfolio.png",
+        foto: "./Portfolio.png",
         title: "Portfolio",
         tags: [
           {id:1,name:'Vue'},
