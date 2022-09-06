@@ -81,6 +81,17 @@ export default {
           {id:3,name:'Bootstrap'},
         ]
       },
+      {
+        id: 6,
+        linkCode: "https://github.com/AtlasMountains/portfolio",
+        linkProject: "https://atlasmountains.github.io/portfolio",
+        foto: "/src/assets/portfolio.png",
+        title: "Portfolio",
+        tags: [
+          {id:1,name:'Vue'},
+          {id:2,name:'tailwindcss'},
+        ]
+      },
     ];
   },
 };
