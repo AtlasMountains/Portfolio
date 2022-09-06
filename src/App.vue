@@ -27,7 +27,7 @@ export default {
         id: 1,
         linkCode: "https://github.com/AtlasMountains/personal-finance-club",
         linkProject: "https://siteskip.be/",
-        foto: "/src/assets/FinanceClub.png",
+        foto: "/assets/FinanceClub.png",
         title: "the personal finance club",
         tags: [
           {id:1,name:'laravel'},
@@ -41,7 +41,7 @@ export default {
         id: 2,
         linkCode: "https://github.com/AtlasMountains/pizza",
         linkProject: "https://pizza.siteskip.be/",
-        foto: "/src/assets/PizzaZaak.png",
+        foto: "/assets/PizzaZaak.png",
         title: "pizza zaak",
         tags: [
           {id:1,name:'PHP'},
@@ -52,7 +52,7 @@ export default {
         id: 3,
         linkCode: "https://github.com/AtlasMountains/kleurplaat",
         linkProject: "https://atlasmountains.github.io/kleurplaat/",
-        foto: "/src/assets/kleurplaat.png",
+        foto: "/assets/kleurplaat.png",
         title: "kleurplaat",
         tags: [
           {id:1,name:'javascript'},
@@ -63,7 +63,7 @@ export default {
         id: 4,
         linkCode: "https://github.com/AtlasMountains/oefening-SCSS",
         linkProject: "https://atlasmountains.github.io/oefening-SCSS/",
-        foto: "/src/assets/ArtStudio.png",
+        foto: "/assets/ArtStudio.png",
         title: "oefening css",
         tags: [
           {id:1,name:'SASS/SCSS'},
@@ -73,7 +73,7 @@ export default {
         id: 5,
         linkCode: "https://github.com/AtlasMountains/yahtzee",
         linkProject: "https://atlasmountains.github.io/yahtzee/",
-        foto: "/src/assets/Yahtzee.png",
+        foto: "/assets/Yahtzee.png",
         title: "yahtzee",
         tags: [
           {id:1,name:'javascript'},
@@ -85,7 +85,7 @@ export default {
         id: 6,
         linkCode: "https://github.com/AtlasMountains/portfolio",
         linkProject: "https://atlasmountains.github.io/portfolio",
-        foto: "/src/assets/portfolio.png",
+        foto: "/assets/portfolio.png",
         title: "Portfolio",
         tags: [
           {id:1,name:'Vue'},
