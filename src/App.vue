@@ -27,7 +27,7 @@ export default {
         id: 1,
         linkCode: "https://github.com/AtlasMountains/personal-finance-club",
         linkProject: "https://siteskip.be/",
-        foto: "/FinanceClub.png",
+        foto: "./FinanceClub.png",
         title: "the personal finance club",
         tags: [
           {id:1,name:'laravel'},
@@ -41,7 +41,7 @@ export default {
         id: 2,
         linkCode: "https://github.com/AtlasMountains/pizza",
         linkProject: "https://pizza.siteskip.be/",
-        foto: "/PizzaZaak.png",
+        foto: "./PizzaZaak.png",
         title: "pizza zaak",
         tags: [
           {id:1,name:'PHP'},
@@ -52,7 +52,7 @@ export default {
         id: 3,
         linkCode: "https://github.com/AtlasMountains/kleurplaat",
         linkProject: "https://atlasmountains.github.io/kleurplaat/",
-        foto: "/kleurplaat.png",
+        foto: "./kleurplaat.png",
         title: "kleurplaat",
         tags: [
           {id:1,name:'javascript'},
@@ -63,7 +63,7 @@ export default {
         id: 4,
         linkCode: "https://github.com/AtlasMountains/oefening-SCSS",
         linkProject: "https://atlasmountains.github.io/oefening-SCSS/",
-        foto: "/ArtStudio.png",
+        foto: "./ArtStudio.png",
         title: "oefening css",
         tags: [
           {id:1,name:'SASS/SCSS'},
@@ -73,7 +73,7 @@ export default {
         id: 5,
         linkCode: "https://github.com/AtlasMountains/yahtzee",
         linkProject: "https://atlasmountains.github.io/yahtzee/",
-        foto: "/Yahtzee.png",
+        foto: "./Yahtzee.png",
         title: "yahtzee",
         tags: [
           {id:1,name:'javascript'},
@@ -85,7 +85,7 @@ export default {
         id: 6,
         linkCode: "https://github.com/AtlasMountains/portfolio",
         linkProject: "https://atlasmountains.github.io/portfolio",
-        foto: "/portfolio.png",
+        foto: "./portfolio.png",
         title: "Portfolio",
         tags: [
           {id:1,name:'Vue'},
