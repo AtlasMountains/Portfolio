@@ -34,6 +34,7 @@ export default {
           {id:2,name:'livewire'},
           {id:3,name:'tailwindcss'},
           {id:4,name:'alpineJS'},
+          {id:5,name:'MySQL'},
         ]
         }
       ,
@@ -45,11 +46,24 @@ export default {
         title: "pizza zaak",
         tags: [
           {id:1,name:'PHP'},
-          {id:2,name:'Bootstrap'}
+          {id:2,name:'Bootstrap'},
+          {id:2,name:'MySQL'},
         ]
       },
       {
         id: 3,
+        linkCode: "https://github.com/AtlasMountains/portfolio",
+        linkProject: "https://atlasmountains.github.io/portfolio",
+        foto: "./Portfolio.png",
+        title: "Portfolio",
+        tags: [
+          {id:1,name:'Vue'},
+          {id:2,name:'tailwindcss'},
+          {id:3,name:'vite'},
+        ]
+      },
+      {
+        id: 4,
         linkCode: "https://github.com/AtlasMountains/kleurplaat",
         linkProject: "https://atlasmountains.github.io/kleurplaat/",
         foto: "./kleurplaat.png",
@@ -60,7 +74,7 @@ export default {
         ]
       },
       {
-        id: 4,
+        id: 5,
         linkCode: "https://github.com/AtlasMountains/oefening-SCSS",
         linkProject: "https://atlasmountains.github.io/oefening-SCSS/",
         foto: "./ArtStudio.png",
@@ -70,7 +84,7 @@ export default {
         ]
       },
       {
-        id: 5,
+        id: 6,
         linkCode: "https://github.com/AtlasMountains/yahtzee",
         linkProject: "https://atlasmountains.github.io/yahtzee/",
         foto: "./Yahtzee.png",
@@ -79,17 +93,6 @@ export default {
           {id:1,name:'javascript'},
           {id:2,name:'OOP'},
           {id:3,name:'Bootstrap'},
-        ]
-      },
-      {
-        id: 6,
-        linkCode: "https://github.com/AtlasMountains/portfolio",
-        linkProject: "https://atlasmountains.github.io/portfolio",
-        foto: "./Portfolio.png",
-        title: "Portfolio",
-        tags: [
-          {id:1,name:'Vue'},
-          {id:2,name:'tailwindcss'},
         ]
       },
     ];
