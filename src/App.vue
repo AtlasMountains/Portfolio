@@ -32,7 +32,7 @@ export default {
         tags: [
           {id:1,name:'laravel'},
           {id:2,name:'livewire'},
-          {id:3,name:'tailwindcss'},
+          {id:3,name:'Tailwind'},
           {id:4,name:'alpineJS'},
           {id:5,name:'MySQL'},
         ]
@@ -58,19 +58,19 @@ export default {
         title: "Portfolio",
         tags: [
           {id:1,name:'Vue'},
-          {id:2,name:'tailwindcss'},
+          {id:2,name:'Tailwind'},
           {id:3,name:'vite'},
         ]
       },
       {
         id: 4,
-        linkCode: "https://github.com/AtlasMountains/kleurplaat",
-        linkProject: "https://atlasmountains.github.io/kleurplaat/",
-        foto: "./kleurplaat.png",
-        title: "kleurplaat",
+        linkCode: "https://github.com/AtlasMountains/React_Tick-Tack-Toe",
+        linkProject: "https://atlasmountains.github.io/yahtzee/",
+        foto: "./Tick-Tack-Toe.png",
+        title: "React Tick-Tack-Toe",
         tags: [
           {id:1,name:'javascript'},
-          {id:2,name:'JSON'},
+          {id:2,name:'React'},
         ]
       },
       {
@@ -93,6 +93,17 @@ export default {
           {id:1,name:'javascript'},
           {id:2,name:'OOP'},
           {id:3,name:'Bootstrap'},
+        ]
+      },
+      {
+        id: 7,
+        linkCode: "https://github.com/AtlasMountains/kleurplaat",
+        linkProject: "https://atlasmountains.github.io/kleurplaat/",
+        foto: "./kleurplaat.png",
+        title: "kleurplaat",
+        tags: [
+          {id:1,name:'javascript'},
+          {id:2,name:'JSON'},
         ]
       },
     ];
