@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Publish to github pages
+
+```sh
+git subtree push --prefix dist origin gh-pages
+```
