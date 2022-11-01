@@ -10,14 +10,14 @@ export default {
 </script>
 
 <template>
-  <div class="mt-2 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+  <div class="grid grid-cols-1 gap-4 mt-2 md:grid-cols-2 lg:grid-cols-3">
     <div :key="app.id" v-for="app in apps">
       <Card
         :title="app.title"
         :foto="app.foto"
         :linkCode="app.linkCode"
         :linkProject="app.linkProject"
-        :tags = "app.tags"
+        :tags="app.tags"
       ></Card>
     </div>
   </div>

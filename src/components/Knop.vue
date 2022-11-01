@@ -1,6 +1,6 @@
 <template>
   <a
-    class="font-semibold text-center py-2 hover:bg-opacity-0 focus:bg-opacity-0 ease-in-out duration-300"
+    class="py-2 font-semibold text-center duration-300 ease-in-out hover:bg-opacity-0 focus:bg-opacity-0"
     :href="link"
     target="_blank"
   >
