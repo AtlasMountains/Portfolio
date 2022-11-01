@@ -6,7 +6,7 @@ import Projects from "./components/Projects.vue";
 <template>
   <div>
     <Header></Header>
-    <Projects :apps="apps"></Projects>
+    <Projects :apps="apps" class="px-4 mx-auto xl:w-4/5"></Projects>
   </div>
 </template>
 
@@ -30,14 +30,13 @@ export default {
         foto: "./FinanceClub.png",
         title: "the personal finance club",
         tags: [
-          {id:1,name:'laravel'},
-          {id:2,name:'livewire'},
-          {id:3,name:'Tailwind'},
-          {id:4,name:'alpineJS'},
-          {id:5,name:'MySQL'},
-        ]
-        }
-      ,
+          { id: 1, name: "laravel" },
+          { id: 2, name: "livewire" },
+          { id: 3, name: "Tailwind" },
+          { id: 4, name: "alpineJS" },
+          { id: 5, name: "MySQL" },
+        ],
+      },
       {
         id: 2,
         linkCode: "https://github.com/AtlasMountains/pizza",
@@ -45,10 +44,10 @@ export default {
         foto: "./PizzaZaak.png",
         title: "pizza zaak",
         tags: [
-          {id:1,name:'PHP'},
-          {id:2,name:'Bootstrap'},
-          {id:2,name:'MySQL'},
-        ]
+          { id: 1, name: "PHP" },
+          { id: 2, name: "Bootstrap" },
+          { id: 2, name: "MySQL" },
+        ],
       },
       {
         id: 3,
@@ -57,10 +56,10 @@ export default {
         foto: "./Portfolio.png",
         title: "Portfolio",
         tags: [
-          {id:1,name:'Vue'},
-          {id:2,name:'Tailwind'},
-          {id:3,name:'vite'},
-        ]
+          { id: 1, name: "Vue" },
+          { id: 2, name: "Tailwind" },
+          { id: 3, name: "vite" },
+        ],
       },
       {
         id: 4,
@@ -69,9 +68,9 @@ export default {
         foto: "./Tick-Tack-Toe.png",
         title: "React Tick-Tack-Toe",
         tags: [
-          {id:1,name:'javascript'},
-          {id:2,name:'React'},
-        ]
+          { id: 1, name: "React" },
+          { id: 2, name: "Javascript" },
+        ],
       },
       {
         id: 5,
@@ -79,9 +78,7 @@ export default {
         linkProject: "https://atlasmountains.github.io/oefening-SCSS/",
         foto: "./ArtStudio.png",
         title: "oefening css",
-        tags: [
-          {id:1,name:'SASS/SCSS'},
-        ]
+        tags: [{ id: 1, name: "SASS/SCSS" }],
       },
       {
         id: 6,
@@ -90,10 +87,10 @@ export default {
         foto: "./Yahtzee.png",
         title: "yahtzee",
         tags: [
-          {id:1,name:'javascript'},
-          {id:2,name:'OOP'},
-          {id:3,name:'Bootstrap'},
-        ]
+          { id: 1, name: "javascript" },
+          { id: 2, name: "OOP" },
+          { id: 3, name: "Bootstrap" },
+        ],
       },
       {
         id: 7,
@@ -102,9 +99,21 @@ export default {
         foto: "./kleurplaat.png",
         title: "kleurplaat",
         tags: [
-          {id:1,name:'javascript'},
-          {id:2,name:'JSON'},
-        ]
+          { id: 1, name: "javascript" },
+          { id: 2, name: "JSON" },
+        ],
+      },
+      {
+        id: 8,
+        linkCode: "https://github.com/AtlasMountains/task-tracker",
+        linkProject: "https://atlasmountains.github.io/task-tracker/",
+        foto: "./Task tracker.png",
+        title: "Task Tracker",
+        tags: [
+          { id: 1, name: "React" },
+          { id: 2, name: "Javascript" },
+          { id: 2, name: "Tailwind" },
+        ],
       },
     ];
   },
