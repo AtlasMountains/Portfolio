@@ -6,7 +6,7 @@ import Projects from "./components/Projects.vue";
 <template>
   <div>
     <Header></Header>
-    <Projects :apps="apps" class="px-4 mx-auto xl:w-4/5"></Projects>
+    <Projects :apps="apps" class="p-4 mx-auto xl:w-4/5"></Projects>
   </div>
 </template>
 
@@ -64,7 +64,7 @@ export default {
       {
         id: 4,
         linkCode: "https://github.com/AtlasMountains/React_Tick-Tack-Toe",
-        linkProject: "https://atlasmountains.github.io/yahtzee/",
+        linkProject: "https://atlasmountains.github.io/React_Tick-Tack-Toe/",
         foto: "./Tick-Tack-Toe.png",
         title: "React Tick-Tack-Toe",
         tags: [
